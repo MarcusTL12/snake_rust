@@ -1,0 +1,12 @@
+[package]
+name = "snake_rust"
+version = "0.1.0"
+authors = ["MarcusTL12 <marcuspaafjellet@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+termion = ""
+termion_game_engine = {git = "https://github.com/MarcusTL12/termion_game_engine", branch = "master"}
+termion_game_engine_util = {git = "https://github.com/MarcusTL12/termion_game_engine_util", branch = "master"}
